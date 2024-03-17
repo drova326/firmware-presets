@@ -20,115 +20,113 @@
 #$ DESCRIPTION: <br>
 #$ DESCRIPTION: The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.
 
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/298
-
 #$ OPTION BEGIN (CHECKED): map to displayport 
-    set osd_displayport_device = MSP
+set osd_displayport_device = MSP
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): set HDOSD
-    set vcd_video_system = HD
+#$ OPTION BEGIN (CHECKED): set HD OSD
+set vcd_video_system = HD
 #$ OPTION END
 
 #$ OPTION_GROUP BEGIN: set air unit
 
-    #$ OPTION BEGIN (CHECKED): O3
-        set osd_warn_bitmask = 24575
-        set osd_vbat_pos = 470
-        set osd_rssi_pos = 192
-        set osd_link_quality_pos = 2102
-        set osd_rssi_dbm_pos = 2109
-        set osd_rsnr_pos = 160
-        set osd_tim_1_pos = 3087
-        set osd_tim_2_pos = 3119
-        set osd_flymode_pos = 2681
-        set osd_throttle_pos = 3566
-        set osd_crosshairs_pos = 313
-        set osd_current_pos = 544
-        set osd_mah_drawn_pos = 3631
-        set osd_craft_name_pos = 534
-        set osd_gps_speed_pos = 2066
-        set osd_gps_lon_pos = 2081
-        set osd_gps_lat_pos = 2049
-        set osd_gps_sats_pos = 2062
-        set osd_home_dir_pos = 2074
-        set osd_home_dist_pos = 2075
-        set osd_flight_dist_pos = 289
-        set osd_altitude_pos = 19458
-        set osd_warnings_pos = 14837
-        set osd_avg_cell_voltage_pos = 3625
-        set osd_esc_tmp_pos = 129
-        set osd_flip_arrow_pos = 2394
-        set osd_core_temp_pos = 225
-        set osd_log_status_pos = 2177
-        set osd_rate_profile_name_pos = 2656
-        set osd_stat_bitmask = 538412
-    #$ OPTION END
-    
-    #$ OPTION BEGIN (UNCHECKED): Vista
-        set osd_warn_bitmask = 24575
-        set osd_vbat_pos = 470
-        set osd_rssi_pos = 192
-        set osd_link_quality_pos = 2102
-        set osd_rssi_dbm_pos = 2109
-        set osd_rsnr_pos = 160
-        set osd_tim_1_pos = 3087
-        set osd_tim_2_pos = 3119
-        set osd_flymode_pos = 2681
-        set osd_throttle_pos = 3566
-        set osd_crosshairs_pos = 313
-        set osd_current_pos = 544
-        set osd_mah_drawn_pos = 3631
-        set osd_craft_name_pos = 534
-        set osd_gps_speed_pos = 2066
-        set osd_gps_lon_pos = 2081
-        set osd_gps_lat_pos = 2049
-        set osd_gps_sats_pos = 2062
-        set osd_home_dir_pos = 2074
-        set osd_home_dist_pos = 2075
-        set osd_flight_dist_pos = 289
-        set osd_altitude_pos = 19458
-        set osd_warnings_pos = 14837
-        set osd_avg_cell_voltage_pos = 3625
-        set osd_esc_tmp_pos = 129
-        set osd_flip_arrow_pos = 2394
-        set osd_core_temp_pos = 225
-        set osd_log_status_pos = 2177
-        set osd_rate_profile_name_pos = 2656
-        set osd_stat_bitmask = 538412
-    #$ OPTION END
+#$ OPTION BEGIN (CHECKED): O3 Air Unit
+set osd_warn_bitmask = 24575
+set osd_vbat_pos = 470
+set osd_rssi_pos = 192
+set osd_link_quality_pos = 2102
+set osd_rssi_dbm_pos = 2109
+set osd_rsnr_pos = 160
+set osd_tim_1_pos = 3087
+set osd_tim_2_pos = 3119
+set osd_flymode_pos = 2681
+set osd_throttle_pos = 3566
+set osd_crosshairs_pos = 313
+set osd_current_pos = 544
+set osd_mah_drawn_pos = 3631
+set osd_craft_name_pos = 534
+set osd_gps_speed_pos = 2066
+set osd_gps_lon_pos = 2081
+set osd_gps_lat_pos = 2049
+set osd_gps_sats_pos = 2062
+set osd_home_dir_pos = 2074
+set osd_home_dist_pos = 2075
+set osd_flight_dist_pos = 289
+set osd_altitude_pos = 19458
+set osd_warnings_pos = 14837
+set osd_avg_cell_voltage_pos = 3625
+set osd_esc_tmp_pos = 129
+set osd_flip_arrow_pos = 2394
+set osd_core_temp_pos = 225
+set osd_log_status_pos = 2177
+set osd_rate_profile_name_pos = 2656
+set osd_stat_bitmask = 538412
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Caddx Vista
+set osd_warn_bitmask = 24575
+set osd_vbat_pos = 470
+set osd_rssi_pos = 192
+set osd_link_quality_pos = 2102
+set osd_rssi_dbm_pos = 2109
+set osd_rsnr_pos = 160
+set osd_tim_1_pos = 3087
+set osd_tim_2_pos = 3119
+set osd_flymode_pos = 2681
+set osd_throttle_pos = 3566
+set osd_crosshairs_pos = 313
+set osd_current_pos = 544
+set osd_mah_drawn_pos = 3631
+set osd_craft_name_pos = 534
+set osd_gps_speed_pos = 2066
+set osd_gps_lon_pos = 2081
+set osd_gps_lat_pos = 2049
+set osd_gps_sats_pos = 2062
+set osd_home_dir_pos = 2074
+set osd_home_dist_pos = 2075
+set osd_flight_dist_pos = 289
+set osd_altitude_pos = 19458
+set osd_warnings_pos = 14837
+set osd_avg_cell_voltage_pos = 3625
+set osd_esc_tmp_pos = 129
+set osd_flip_arrow_pos = 2394
+set osd_core_temp_pos = 225
+set osd_log_status_pos = 2177
+set osd_rate_profile_name_pos = 2656
+set osd_stat_bitmask = 538412
+#$ OPTION END
     
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: set displayport and MSP VTX on uarts
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 1 
-        serial 0 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 1 
+serial 0 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 2 
-         serial 1 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 2 
+serial 1 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 3 
-        serial 2 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 3 
+serial 2 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 4
-        serial 3 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 4
+serial 3 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 5 
-        serial 4 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 5 
+serial 4 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 6 
-        serial 5 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 6 
+serial 5 131073 115200 57600 0 115200
+#$ OPTION END
 
-    #$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 7
-        serial 6 131073 115200 57600 0 115200
-    #$ OPTION END
+#$ OPTION BEGIN (UNCHECKED): use displayport and MSP VTX on uart 7
+serial 6 131073 115200 57600 0 115200
+#$ OPTION END
 
 #$ OPTION_GROUP END
 
