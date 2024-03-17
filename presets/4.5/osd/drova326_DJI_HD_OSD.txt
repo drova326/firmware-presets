@@ -31,7 +31,7 @@ set vcd_video_system = HD
 #$ OPTION_GROUP BEGIN: set air unit
 
 # feature
-set feature GPS
+feature GPS
 
 #$ OPTION BEGIN (CHECKED): O3 Air Unit
 set osd_warn_bitmask = 24575
