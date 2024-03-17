@@ -1,6 +1,6 @@
 #$ TITLE: drova326 AUX
 #$ FIRMWARE_VERSION: 4.5
-#$ CATEGORY: MODES
+#$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, mode, modes, aux, switch
 #$ AUTHOR: drova326
