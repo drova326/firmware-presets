@@ -137,6 +137,7 @@
       "4.5"
     ],
     "category": [
+      "MODES",
       "VTX"
     ],
     "author": [
@@ -145,17 +146,23 @@
     "keywords": [
       "03",
       "air unit",
+      "aux",
       "avatar",
+      "defaults",
       "displayport",
       "dji",
       "fpv.wtf",
       "HD",
       "HD video",
+      "mode",
+      "modes",
       "msp",
       "msp-osd",
       "O3",
       "O3 air unit",
+      "reset",
       "sugarK",
+      "switch",
       "vista",
       "vtx",
       "walksnail",
@@ -164,8 +171,28 @@
   },
   "presets": [
     {
+      "fullPath": "presets/4.5/modes/drova326_aux.txt",
+      "hash": "f618ce02b0a62bb75a3af0933d50760560b71752ccee399b812859869000fc46",
+      "title": "drova326 AUX",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "mode",
+        "modes",
+        "aux",
+        "switch"
+      ],
+      "author": "drova326",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/drova326_DJI_HD_OSD.txt",
-      "hash": "e32f4bc935b02f1626429904088edc109c0102397489d59033de4c8d0b6c0b87",
+      "hash": "902c620962cc94d0159f6a542d54d151ea5884e24fdf0450de536e5ab32b1a75",
       "title": "drova326 OSD DJI with GPS",
       "firmware_version": [
         "4.4",
