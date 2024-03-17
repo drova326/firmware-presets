@@ -30,6 +30,8 @@ set vcd_video_system = HD
 
 #$ OPTION_GROUP BEGIN: set air unit
 
+feature OSD
+
 #$ OPTION BEGIN (CHECKED): O3 Air Unit
 set osd_warn_bitmask = 24575
 set osd_vbat_pos = 470
