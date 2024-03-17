@@ -21,7 +21,7 @@
 #$ DESCRIPTION: The information provided on this preset is for educational and entertainment purposes only. Betaflight makes no representations as to the safety or legality of the use of any information provided herein. End users assume all responsibility and liability for ensuring they are complying with all relevant laws and regulations.
 
 # feature
-feature GPS
+feature -GPS
 
 #$ OPTION BEGIN (CHECKED): map to displayport 
 set osd_displayport_device = MSP
@@ -34,6 +34,7 @@ set vcd_video_system = HD
 #$ OPTION_GROUP BEGIN: set air unit
 
 #$ OPTION BEGIN (CHECKED): O3 Air Unit
+feature GPS
 set osd_warn_bitmask = 24575
 set osd_vbat_pos = 470
 set osd_rssi_pos = 192
@@ -67,6 +68,7 @@ set osd_stat_bitmask = 538412
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Caddx Vista
+feature GPS
 set osd_warn_bitmask = 24575
 set osd_vbat_pos = 470
 set osd_rssi_pos = 192
