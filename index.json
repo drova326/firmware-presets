@@ -231,6 +231,22 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/other/drova326 Pavo20 defaults.txt",
+      "hash": "13bbeb579011bd5ceb34f29dda0f24167c5f8400dfcce611fdde1019fe7164d1",
+      "title": "drova326 Pavo20 defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "drova326",
+      "keywords": [
+        "pavo20",
+        "defaults"
+      ],
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
       "hash": "46a53d07657d91ed5628abb169d6b421aabe64f7a8176a2c5b281dc41cf4ae52",
       "title": "drova326 Pavo20 defaults",
@@ -247,7 +263,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "3af3851a693735fbcdd814a6652d2a1a8855224731f2ca99b95a58ff623f2f9c",
+      "hash": "40d4b5f128b06e6bea29ce427c595ce0f5c1064199c1a71a170fa541561332ee",
       "title": "drova326 rates pack",
       "firmware_version": [
         "4.3",
@@ -255,7 +271,7 @@
         "4.5"
       ],
       "category": "RATES",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "author": "drova326",
       "keywords": [
         "rates",
