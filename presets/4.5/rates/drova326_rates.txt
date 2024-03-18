@@ -4,11 +4,13 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ AUTHOR: drova326
 #$ KEYWORDS: rates, freestyle, juicy, sbang
+#$ AUTHOR: drova326
 
 #$ PARSER: MARKED
 
+#$ DESCRIPTION: <br /><br />
+#$ DESCRIPTION: My rates
 #$ WARNING: This rate preset will overwrite all the rate profiles 
 
 # set defaults
