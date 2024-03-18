@@ -78,6 +78,18 @@ set gps_rescue_allow_arming_without_fix = ON
 set gps_rescue_use_mag = OFF
 #$ OPTION END
 
+#$ OPTION_GROUP BEGIN: set GPS mode
+
+#$ OPTION BEGIN (CHECKED): UBLOX
+set gps_provider = UBLOX
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): NMEA
+set gps_provider = NMEA
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: set GPS uarts
 
 #$ OPTION BEGIN (UNCHECKED): use GPS on uart 1
