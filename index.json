@@ -133,11 +133,13 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "4.3",
       "4.4",
       "4.5"
     ],
     "category": [
       "MODES",
+      "RATES",
       "VTX"
     ],
     "author": [
@@ -152,15 +154,19 @@
       "displayport",
       "dji",
       "fpv.wtf",
+      "freestyle",
       "HD",
       "HD video",
+      "juicy",
       "mode",
       "modes",
       "msp",
       "msp-osd",
       "O3",
       "O3 air unit",
+      "rates",
       "reset",
+      "sbang",
       "sugarK",
       "switch",
       "vista",
@@ -221,6 +227,26 @@
       ],
       "author": "drova326",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.5/rates/drova326_rates.txt",
+      "hash": "40d4b5f128b06e6bea29ce427c595ce0f5c1064199c1a71a170fa541561332ee",
+      "title": "drova326 rates pack",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "author": "drova326",
+      "keywords": [
+        "rates",
+        "freestyle",
+        "juicy",
+        "sbang"
+      ],
+      "priority": 10000
     }
   ]
 }
