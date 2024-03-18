@@ -63,6 +63,7 @@ rateprofile 2
 set rateprofile_name = default
 #$ OPTION END
 
+# restore original rateprofile selection
 rateprofile 0
 
 #$ OPTION BEGIN (UNCHECKED): tune 
@@ -81,7 +82,6 @@ set angle_p_gain = 100
 set simplified_i_gain = 30
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 0
-
 rateprofile 3
 set rateprofile_name = tune
 set roll_rc_rate = 10
@@ -96,6 +96,3 @@ set yaw_srate = 50
 #$ OPTION END
 
 #$ OPTION_GROUP END
-
-# restore original rateprofile selection
-rateprofile 0
