@@ -156,6 +156,7 @@
       "dji",
       "fpv.wtf",
       "freestyle",
+      "GPS",
       "HD",
       "HD video",
       "juicy",
@@ -231,8 +232,25 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/other/drova326_GPS.txt",
+      "hash": "7f079951e6cd8d3ba3380f51d9d2386f561d8d640be23e0f584487dea1cc9fea",
+      "title": "drova326 GPS settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "reset",
+        "GPS"
+      ],
+      "author": "drova326",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "e0be15db9cdc101423237a35ee4ed0a8e6637cbff37d66216cbcad0127c07e8b",
+      "hash": "c3bd2b5d17aba68ed69765533c3dfb6b81a8076c108f1be8a54a1e3c2345825c",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
         "4.5"
@@ -248,7 +266,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "675960c2d2d0aa387162b8fc0bb42cb3734395c98902aa2583ae82986ff000c7",
+      "hash": "86211f0fb5316c4bff91ffb46502fa1f5c863ccf7a48620b8f5f8fb021aefbf4",
       "title": "drova326 rates pack",
       "firmware_version": [
         "4.3",

@@ -7,7 +7,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: It's a default CLI for Pavo20!
+#$ DESCRIPTION: It's a default CLI for Pavo20.
 #$ DESCRIPTION: <br /><br />
 #$ DESCRIPTION: Pavo 20 is designed as a 2″ DJI O3 cinewhoop under 150g, also compatible with the Caddx Vista and RunCam Link. Innovative PA12 material thickened cross-section whoop duct, ingeniously employing the principles of aerodynamics and synergizing flawlessly with an enhanced 3S powerful propulsion system, will deliver unparalleled thrust. The camera mount has undergone a comprehensive redesign, ensuring precise protection. It accommodates COB LED stripes seamlessly. The marvel of engineering showcases unparalleled performance both indoors and outdoors as the epitome of excellence in the realm of DJI O3-compatible quadcopters. 
 
