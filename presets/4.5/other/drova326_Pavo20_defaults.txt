@@ -1,9 +1,9 @@
 #$ TITLE: drova326 Pavo20 defaults
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ AUTHOR: drova326
-#$ KEYWORDS: pavo20
+#$ KEYWORDS: pavo20, defaults
 
 # start the command batch
 batch start

@@ -231,7 +231,7 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.5/other/drova326 Pavo20 defaults.txt",
+      "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
       "hash": "13bbeb579011bd5ceb34f29dda0f24167c5f8400dfcce611fdde1019fe7164d1",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
@@ -243,21 +243,6 @@
       "keywords": [
         "pavo20",
         "defaults"
-      ],
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "46a53d07657d91ed5628abb169d6b421aabe64f7a8176a2c5b281dc41cf4ae52",
-      "title": "drova326 Pavo20 defaults",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "EXPERIMENTAL",
-      "author": "drova326",
-      "keywords": [
-        "pavo20"
       ],
       "priority": 0
     },
