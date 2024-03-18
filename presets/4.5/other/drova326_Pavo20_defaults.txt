@@ -24,6 +24,10 @@ defaults nosave
 resource SERIAL_TX 6 NONE
 resource PINIO 1 C06
 
+# feature
+feature TELEMETRY
+feature LED_STRIP
+
 # serial
 serial 3 131073 115200 57600 0 115200
 
@@ -54,9 +58,6 @@ beeper -RC_SMOOTHING_INIT_FAIL
 # beacon
 beacon RX_LOST
 beacon RX_SET
-
-# feature
-feature LED_STRIP
 
 # led
 led 0 0,0::CO:10
