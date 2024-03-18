@@ -29,6 +29,8 @@ set roll_rate_limit = 1998
 set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
 
+#$ OPTION_GROUP BEGIN: set rates for add
+
 #$ OPTION BEGIN (CHECKED): freestyle 
 rateprofile 0
 set rateprofile_name = acro
@@ -59,6 +61,8 @@ set yaw_srate = 40
 rateprofile 2
 set rateprofile_name = default
 #$ OPTION END
+
+#$ OPTION_GROUP END
 
 # restore original rateprofile selection
 rateprofile 0
