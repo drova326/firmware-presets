@@ -151,6 +151,8 @@
       "air unit",
       "aux",
       "avatar",
+      "beeper",
+      "buzzer",
       "defaults",
       "displayport",
       "dji",
@@ -164,12 +166,14 @@
       "modes",
       "msp",
       "msp-osd",
+      "notification",
       "O3",
       "O3 air unit",
       "pavo20",
       "rates",
       "reset",
       "sbang",
+      "sounds",
       "sugarK",
       "switch",
       "vista",
@@ -262,6 +266,24 @@
         "pavo20",
         "defaults",
         "reset"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/drova326_beeper.txt",
+      "hash": "eb0d7c7a953953b1e1825056f9f5e42a7e841d61b2a8ba99914f897a1c924c1f",
+      "title": "drova326 Beeper (off useless)",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "drova326",
+      "keywords": [
+        "beeper",
+        "sounds",
+        "buzzer",
+        "notification"
       ],
       "priority": 0
     },
