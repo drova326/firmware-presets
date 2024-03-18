@@ -151,6 +151,7 @@
       "air unit",
       "aux",
       "avatar",
+      "beeper; sound; notification",
       "defaults",
       "displayport",
       "dji",
@@ -250,7 +251,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "a7d541dc66892154e6a04f95d05a66cb757816c7bfc82a7037e2073cf8b4bd46",
+      "hash": "38f374d8b3c711a5704b9fccdba02743581c0cf3108d125db3b243f685646ec1",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
         "4.5"
@@ -260,14 +261,15 @@
       "author": "drova326",
       "keywords": [
         "pavo20",
-        "defaults"
+        "defaults",
+        "reset"
       ],
       "priority": 0
     },
     {
       "fullPath": "presets/4.5/other/drova326_beeper.txt",
-      "hash": "27dcb9256fa0b441813ed46365dcca26b9fe7b39fd72c51c55eb5120851dfe9f",
-      "title": "drova326 beeper setup",
+      "hash": "f3974f8fa77dc478b7b0856c3bb9f7174cd5d8fdcf21eea00a7362971af4eb4b",
+      "title": "drova326 Beeper (off useless)",
       "firmware_version": [
         "4.5"
       ],
@@ -275,15 +277,14 @@
       "status": "COMMUNITY",
       "author": "drova326",
       "keywords": [
-        "pavo20",
-        "defaults"
+        "beeper; sound; notification"
       ],
       "priority": 0
     },
     {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "86211f0fb5316c4bff91ffb46502fa1f5c863ccf7a48620b8f5f8fb021aefbf4",
-      "title": "drova326 rates pack",
+      "hash": "3bd26d855edaf7e2d8ebdf5338d7040915b83127f5d1f84073d2c60b4f1fe6cd",
+      "title": "drova326 Rates pack",
       "firmware_version": [
         "4.3",
         "4.4",
