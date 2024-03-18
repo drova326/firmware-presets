@@ -46,18 +46,20 @@ rxfail 0 a
 rxfail 1 a
 rxfail 2 a
 rxfail 3 a
-rxfail 4 a
-rxfail 5 a
-rxfail 6 a
-rxfail 7 a
-rxfail 8 a
-rxfail 9 a
-rxfail 10 a
-rxfail 11 a
-rxfail 12 a
-rxfail 13 a
-rxfail 14 a
-rxfail 15 a
+rxfail 4 h
+rxfail 5 h
+rxfail 6 h
+rxfail 7 h
+rxfail 8 h
+rxfail 9 h
+rxfail 10 h
+rxfail 11 h
+rxfail 12 h
+rxfail 13 h
+rxfail 14 h
+rxfail 15 h
+rxfail 16 h
+rxfail 17 h
 
 # rxfail custom
 rxfail 3 s 1500
