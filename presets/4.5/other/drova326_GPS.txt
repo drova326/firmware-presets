@@ -67,6 +67,17 @@ feature GPS
 set failsafe_procedure = GPS-RESCUE
 #$ OPTION END
 
+#$ OPTION BEGIN (CHECKED): set custom config for GPS_RESCUE?
+set gps_rescue_min_start_dist = 10
+set gps_rescue_alt_mode = FIXED_ALT
+set gps_rescue_min_sats = 5
+set gps_rescue_allow_arming_without_fix = ON
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): disable Mag?
+set gps_rescue_use_mag = OFF
+#$ OPTION END
+
 #$ OPTION_GROUP BEGIN: set GPS uarts
 
 #$ OPTION BEGIN (UNCHECKED): use GPS on uart 1
@@ -85,15 +96,17 @@ serial 2 2 115200 9600 0 115200
 serial 3 2 115200 9600 0 115200
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): use GPS on uart 5
+serial 4 2 115200 9600 0 115200
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use GPS on uart 6
+serial 5 2 115200 9600 0 115200
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): use GPS on uart 7
+serial 6 2 115200 9600 0 115200
+#$ OPTION END
+
+
 #$ OPTION_GROUP END
-
-#$ OPTION BEGIN (CHECKED): set custom config for GPS_RESCUE?
-set gps_rescue_min_start_dist = 10
-set gps_rescue_alt_mode = FIXED_ALT
-set gps_rescue_min_sats = 5
-set gps_rescue_allow_arming_without_fix = ON
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): disable Mag?
-set gps_rescue_use_mag = OFF
-#$ OPTION END
