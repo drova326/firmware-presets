@@ -133,11 +133,14 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "4.3",
       "4.4",
       "4.5"
     ],
     "category": [
       "MODES",
+      "OTHER",
+      "RATES",
       "VTX"
     ],
     "author": [
@@ -152,15 +155,20 @@
       "displayport",
       "dji",
       "fpv.wtf",
+      "freestyle",
       "HD",
       "HD video",
+      "juicy",
       "mode",
       "modes",
       "msp",
       "msp-osd",
       "O3",
       "O3 air unit",
+      "pavo20",
+      "rates",
       "reset",
+      "sbang",
       "sugarK",
       "switch",
       "vista",
@@ -172,7 +180,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/modes/drova326_aux.txt",
-      "hash": "f618ce02b0a62bb75a3af0933d50760560b71752ccee399b812859869000fc46",
+      "hash": "94c8da3b4683580089bc5c59c2dc9683d5e8fa64c78b903b8a60fc6e96bf0373",
       "title": "drova326 AUX",
       "firmware_version": [
         "4.5"
@@ -192,7 +200,7 @@
     },
     {
       "fullPath": "presets/4.5/osd/drova326_DJI_HD_OSD.txt",
-      "hash": "902c620962cc94d0159f6a542d54d151ea5884e24fdf0450de536e5ab32b1a75",
+      "hash": "03165b2cb83b86a118ffab62950585181ec548178459ca1a71a19fd88223c428",
       "title": "drova326 OSD DJI with GPS",
       "firmware_version": [
         "4.4",
@@ -221,6 +229,41 @@
       ],
       "author": "drova326",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.5/other/drova326 Pavo20 defaults.txt",
+      "hash": "46a53d07657d91ed5628abb169d6b421aabe64f7a8176a2c5b281dc41cf4ae52",
+      "title": "drova326 Pavo20 defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "EXPERIMENTAL",
+      "author": "drova326",
+      "keywords": [
+        "pavo20"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/rates/drova326_rates.txt",
+      "hash": "3af3851a693735fbcdd814a6652d2a1a8855224731f2ca99b95a58ff623f2f9c",
+      "title": "drova326 rates pack",
+      "firmware_version": [
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "category": "RATES",
+      "status": "EXPERIMENTAL",
+      "author": "drova326",
+      "keywords": [
+        "rates",
+        "freestyle",
+        "juicy",
+        "sbang"
+      ],
+      "priority": 10000
     }
   ]
 }
