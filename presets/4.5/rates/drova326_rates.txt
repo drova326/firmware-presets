@@ -9,8 +9,9 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: <br /><br />
 #$ DESCRIPTION: My rates
+#$ DESCRIPTION: <br /><br />
+#$ DESCRIPTION: Use tune rates with <a href="https://www.youtube.com/watch?v=sqT4MACi3d8">this guide</a> for best tuning at home
 #$ WARNING: This rate preset will overwrite all the rate profiles 
 
 # set defaults
