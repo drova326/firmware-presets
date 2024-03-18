@@ -3,7 +3,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
-#$ STATUS: EXPERIMENTAL
+#$ STATUS: COMMUNITY
 #$ AUTHOR: drova326
 #$ KEYWORDS: rates, freestyle, juicy, sbang
 
