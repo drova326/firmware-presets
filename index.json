@@ -270,9 +270,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/drova326_beeper.txt",
-      "hash": "eb0d7c7a953953b1e1825056f9f5e42a7e841d61b2a8ba99914f897a1c924c1f",
-      "title": "drova326 Beeper (off useless)",
+      "fullPath": "presets/4.5/other/drova326_buzzer.txt",
+      "hash": "3f15b11236944ad4614ec629023a6661f147a9cd569596368ac9e83c7f6c007e",
+      "title": "drova326 Beeper",
       "firmware_version": [
         "4.5"
       ],
