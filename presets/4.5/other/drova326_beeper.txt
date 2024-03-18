@@ -1,4 +1,4 @@
-#$ TITLE: drova326 beeper setup
+#$ TITLE: drova326 Beeper (off useless)
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
