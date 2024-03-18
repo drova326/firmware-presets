@@ -6,6 +6,9 @@
 #$ AUTHOR: drova326
 #$ DESCRIPTION: Resets modes and adjustment ranges to 4.5 defaults
 
+# feature
+feature -AIRMODE
+
 # aux set defaults
 aux 0 0 0 900 900 0 0
 aux 1 0 0 900 900 0 0
@@ -37,3 +40,26 @@ aux 4 26 5 1300 1700 0 0
 aux 5 28 1 1700 2100 0 0
 aux 6 31 5 1700 2100 0 0
 aux 7 35 2 1700 2100 0 0
+
+#rxfail set defaults
+rxfail 0 a
+rxfail 1 a
+rxfail 2 a
+rxfail 3 a
+rxfail 4 a
+rxfail 5 a
+rxfail 6 a
+rxfail 7 a
+rxfail 8 a
+rxfail 9 a
+rxfail 10 a
+rxfail 11 a
+rxfail 12 a
+rxfail 13 a
+rxfail 14 a
+rxfail 15 a
+
+# rxfail custom
+rxfail 3 s 1500
+rxfail 6 s 1000
+rxfail 7 s 2000
