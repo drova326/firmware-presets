@@ -79,7 +79,6 @@ set dyn_notch_max_hz = 200
 set gyro_lpf1_dyn_min_hz = 0
 set acc_trim_pitch = 1
 set acc_trim_roll = 3
-set acc_calibration = -28,30,-24,1
 set baro_hardware = AUTO
 set blackbox_sample_rate = 1/2
 set blackbox_device = NONE

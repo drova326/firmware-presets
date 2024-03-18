@@ -237,7 +237,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_GPS.txt",
-      "hash": "02780adbfed35bbd87c20cbd21f3ef1f11689b375b2223cc826081942ebff48f",
+      "hash": "a08480088739ee123b82c71ccfbe7d9ef1bcbec7dbd5b2cf49a05879db220d2e",
       "title": "drova326 GPS settings",
       "firmware_version": [
         "4.5"
@@ -254,7 +254,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "6248504c3d31964f691124f47117e7f0d97dce27663fb36cfabd5b42813f80f8",
+      "hash": "4b6b1cbf4ed2907d9b8efac8baee3d1d6147821a214a97215c18235ff92d23a4",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
         "4.5"
@@ -271,7 +271,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_buzzer.txt",
-      "hash": "3f15b11236944ad4614ec629023a6661f147a9cd569596368ac9e83c7f6c007e",
+      "hash": "d6ed15eb6991b746c17327adb4b4184084745eceae23a98516d16923cd0b1c25",
       "title": "drova326 Beeper",
       "firmware_version": [
         "4.5"
@@ -289,7 +289,7 @@
     },
     {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "3bd26d855edaf7e2d8ebdf5338d7040915b83127f5d1f84073d2c60b4f1fe6cd",
+      "hash": "6d0eda2ff7d811387eaf36935faed4140faa22888ed73bfbcf4d148d1734df3f",
       "title": "drova326 Rates pack",
       "firmware_version": [
         "4.3",
