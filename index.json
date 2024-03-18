@@ -151,7 +151,6 @@
       "air unit",
       "aux",
       "avatar",
-      "beeper; sound; notification",
       "defaults",
       "displayport",
       "dji",
@@ -263,21 +262,6 @@
         "pavo20",
         "defaults",
         "reset"
-      ],
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/other/drova326_beeper.txt",
-      "hash": "f3974f8fa77dc478b7b0856c3bb9f7174cd5d8fdcf21eea00a7362971af4eb4b",
-      "title": "drova326 Beeper (off useless)",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "author": "drova326",
-      "keywords": [
-        "beeper; sound; notification"
       ],
       "priority": 0
     },
