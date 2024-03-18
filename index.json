@@ -133,14 +133,11 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3",
       "4.4",
       "4.5"
     ],
     "category": [
       "MODES",
-      "OTHER",
-      "RATES",
       "VTX"
     ],
     "author": [
@@ -155,20 +152,15 @@
       "displayport",
       "dji",
       "fpv.wtf",
-      "freestyle",
       "HD",
       "HD video",
-      "juicy",
       "mode",
       "modes",
       "msp",
       "msp-osd",
       "O3",
       "O3 air unit",
-      "pavo20",
-      "rates",
       "reset",
-      "sbang",
       "sugarK",
       "switch",
       "vista",
@@ -229,42 +221,6 @@
       ],
       "author": "drova326",
       "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "13bbeb579011bd5ceb34f29dda0f24167c5f8400dfcce611fdde1019fe7164d1",
-      "title": "drova326 Pavo20 defaults",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "OTHER",
-      "status": "COMMUNITY",
-      "author": "drova326",
-      "keywords": [
-        "pavo20",
-        "defaults"
-      ],
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "40d4b5f128b06e6bea29ce427c595ce0f5c1064199c1a71a170fa541561332ee",
-      "title": "drova326 rates pack",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "author": "drova326",
-      "keywords": [
-        "rates",
-        "freestyle",
-        "juicy",
-        "sbang"
-      ],
-      "priority": 10000
     }
   ]
 }
