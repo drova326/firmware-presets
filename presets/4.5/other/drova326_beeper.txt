@@ -3,7 +3,7 @@
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ AUTHOR: drova326
-#$ KEYWORDS: pavo20, defaults
+#$ KEYWORDS: beeper; sound; notification
 
 #$ PARSER: MARKED
 
