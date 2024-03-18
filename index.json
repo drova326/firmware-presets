@@ -181,7 +181,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/modes/drova326_aux.txt",
-      "hash": "94c8da3b4683580089bc5c59c2dc9683d5e8fa64c78b903b8a60fc6e96bf0373",
+      "hash": "b7d7536d047620fe6e27fb0ebde0f7af79c83110aff69e4f2c61f4c36528aecd",
       "title": "drova326 AUX",
       "firmware_version": [
         "4.5"
@@ -233,7 +233,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_GPS.txt",
-      "hash": "7f079951e6cd8d3ba3380f51d9d2386f561d8d640be23e0f584487dea1cc9fea",
+      "hash": "02780adbfed35bbd87c20cbd21f3ef1f11689b375b2223cc826081942ebff48f",
       "title": "drova326 GPS settings",
       "firmware_version": [
         "4.5"
@@ -250,8 +250,24 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "c3bd2b5d17aba68ed69765533c3dfb6b81a8076c108f1be8a54a1e3c2345825c",
+      "hash": "a7d541dc66892154e6a04f95d05a66cb757816c7bfc82a7037e2073cf8b4bd46",
       "title": "drova326 Pavo20 defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "drova326",
+      "keywords": [
+        "pavo20",
+        "defaults"
+      ],
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/drova326_beeper.txt",
+      "hash": "27dcb9256fa0b441813ed46365dcca26b9fe7b39fd72c51c55eb5120851dfe9f",
+      "title": "drova326 beeper setup",
       "firmware_version": [
         "4.5"
       ],
