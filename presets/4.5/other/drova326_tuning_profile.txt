@@ -13,7 +13,7 @@
 #$ DESCRIPTION: <br /><br />
 #$ DESCRIPTION: <b>After use this preset and before you starting, make sure of the following:</b> <br />
 #$ DESCRIPTION: 1) ADC filter on TX is off<br />
-#$ DESCRIPTION: 2) Settings/presets have been applied for your TX<br />
+#$ DESCRIPTION: 2) Settings/presets have been applied for your TX (ELRS 250Hz, CRSF 50Hz, etc)<br />
 #$ DESCRIPTION: 3) Feedforward transiton is 1.0<br />
 #$ WARNING: Do you realy want to add pid and rates tune templates and switch for it?
 
