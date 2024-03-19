@@ -170,12 +170,16 @@
       "O3",
       "O3 air unit",
       "pavo20",
+      "pids",
+      "pidtoolbox",
+      "profile",
       "rates",
       "reset",
       "sbang",
       "sounds",
       "sugarK",
       "switch",
+      "tuning",
       "vista",
       "vtx",
       "walksnail",
@@ -254,7 +258,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "4b6b1cbf4ed2907d9b8efac8baee3d1d6147821a214a97215c18235ff92d23a4",
+      "hash": "4ff2ba5a8f43e2105900a86b926be6c8585b5f7f49dd062a7d91b40f91df6f71",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
         "4.5"
@@ -271,7 +275,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_buzzer.txt",
-      "hash": "d6ed15eb6991b746c17327adb4b4184084745eceae23a98516d16923cd0b1c25",
+      "hash": "4bcea04f0053c824cb51238a44c63c2e20ade9aff34974dd1a23ddfa5b138347",
       "title": "drova326 Beeper",
       "firmware_version": [
         "4.5"
@@ -288,8 +292,27 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/other/drova326_tuning_profile.txt",
+      "hash": "84246de9cfc3463260723b70da3ae1a4d42ceab9aea0b7ee8f5c3324c834583c",
+      "title": "drova326 Tuning profile",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "rates",
+        "pids",
+        "profile",
+        "tuning",
+        "pidtoolbox"
+      ],
+      "author": "drova326",
+      "priority": 10000
+    },
+    {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
-      "hash": "6d0eda2ff7d811387eaf36935faed4140faa22888ed73bfbcf4d148d1734df3f",
+      "hash": "8c8e55ca00a99d7095a2c13d3fdcd55cccf35d8c48745db11733aa8a150fbb10",
       "title": "drova326 Rates pack",
       "firmware_version": [
         "4.3",

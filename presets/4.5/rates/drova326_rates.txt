@@ -9,9 +9,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: My rates
-#$ DESCRIPTION: <br /><br />
-#$ DESCRIPTION: Use tune rates with <a href="https://www.youtube.com/watch?v=sqT4MACi3d8">this guide</a> and <a href="https://www.youtube.com/watch?v=cUzNuMVxkBM&t=12s">this guide</a> for best tuning at home
+#$ DESCRIPTION: My rates for freestyle and cinematic
 #$ WARNING: This rate preset will overwrite all the rate profiles 
 
 # set defaults
@@ -63,37 +61,7 @@ rateprofile 2
 set rateprofile_name = default
 #$ OPTION END
 
+#$ OPTION_GROUP END
+
 # restore original rateprofile selection
 rateprofile 0
-
-#$ OPTION BEGIN (UNCHECKED): tune 
-#$ WARNING: Do you realy want to add pid and rates tune templates and switch for it?
-profile 3
-set profile_name = tune
-set i_pitch = 25
-set d_pitch = 34
-set f_pitch = 0
-set i_roll = 23
-set d_roll = 30
-set f_roll = 0
-set i_yaw = 23
-set f_yaw = 0
-set angle_p_gain = 100
-set simplified_i_gain = 30
-set simplified_dmax_gain = 0
-set simplified_feedforward_gain = 0
-set feedforward_transition = 100
-rateprofile 3
-set rateprofile_name = tune
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set yaw_rc_rate = 20
-set roll_expo = 0
-set pitch_expo = 0
-set yaw_expo = 0
-set roll_srate = 25
-set pitch_srate = 25
-set yaw_srate = 25
-#$ OPTION END
-
-#$ OPTION_GROUP END
