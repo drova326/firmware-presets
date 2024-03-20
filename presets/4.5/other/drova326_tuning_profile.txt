@@ -43,3 +43,14 @@ set yaw_expo = 0
 set roll_srate = 25
 set pitch_srate = 25
 set yaw_srate = 25
+
+#$ OPTION BEGIN (CHECKED): Set Blackbox config
+set blackbox_sample_rate = 1/4
+set blackbox_disable_bat = ON
+set blackbox_disable_alt = ON
+set blackbox_disable_rssi = ON
+set blackbox_disable_gps = ON
+set blackbox_high_resolution = OFF
+set blackbox_device = SPIFLASH
+set debug_mode = GYRO_SCALED
+#$ OPTION END
