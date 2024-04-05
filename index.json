@@ -156,6 +156,7 @@
       "defaults",
       "displayport",
       "dji",
+      "filter",
       "fpv.wtf",
       "freestyle",
       "GPS",
@@ -258,7 +259,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_Pavo20_defaults.txt",
-      "hash": "4ff2ba5a8f43e2105900a86b926be6c8585b5f7f49dd062a7d91b40f91df6f71",
+      "hash": "9cb172e161058885e59f4244dae8ef5351db1b9c3d745b87dcfc4fd50d5f5baa",
       "title": "drova326 Pavo20 defaults",
       "firmware_version": [
         "4.5"
@@ -292,13 +293,30 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/other/drova326_props_rpm_filter.txt",
+      "hash": "902de2270e0c11a34c81abd7a001f748d3b9697b71889814edcfbc91b82ebfed",
+      "title": "drova326 individual control RPM filter for harmonics",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "defaults",
+        "filter",
+        "tuning"
+      ],
+      "author": "drova326",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/other/drova326_tuning_profile.txt",
-      "hash": "84246de9cfc3463260723b70da3ae1a4d42ceab9aea0b7ee8f5c3324c834583c",
+      "hash": "7242304aef4289a08c92bc278753903e9519014b84098f54a9ed00a790275b5f",
       "title": "drova326 Tuning profile",
       "firmware_version": [
         "4.5"
       ],
-      "category": "RATES",
+      "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
         "rates",
@@ -308,7 +326,7 @@
         "pidtoolbox"
       ],
       "author": "drova326",
-      "priority": 10000
+      "priority": 0
     },
     {
       "fullPath": "presets/4.5/rates/drova326_rates.txt",
