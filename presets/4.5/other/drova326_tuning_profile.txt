@@ -32,6 +32,9 @@ set simplified_i_gain = 30
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 0
 set feedforward_transition = 100
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+
 rateprofile 3
 set rateprofile_name = tune
 set roll_rc_rate = 20
