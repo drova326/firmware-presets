@@ -1,0 +1,30 @@
+#$ TITLE: drova326 hidden BF settings
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, filter, tuning
+#$ AUTHOR: drova326
+
+#$ OPTION_GROUP BEGIN: props RPM filter tuning
+
+#$ OPTION BEGIN (UNCHECKED): 2-blades
+set rpm_filter_weights = 100, 80, 0
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): 3-blades
+set rpm_filter_weights = 100, 0, 80
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: voltage telemetry
+
+#$ OPTION BEGIN (UNCHECKED): whole pack value
+set report_cell_voltage = OFF
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): single cell value
+set report_cell_voltage = ON
+#$ OPTION END
+
+#$ OPTION_GROUP END

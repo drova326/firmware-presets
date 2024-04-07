@@ -293,9 +293,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/other/drova326_props_rpm_filter.txt",
-      "hash": "902de2270e0c11a34c81abd7a001f748d3b9697b71889814edcfbc91b82ebfed",
-      "title": "drova326 individual control RPM filter for harmonics",
+      "fullPath": "presets/4.5/other/drova326_hidden_settings.txt",
+      "hash": "76932f4d05db7dc9e04a281a6f5477567e1d6ff59142ca22c9d1171e7609de38",
+      "title": "drova326 hidden BF settings",
       "firmware_version": [
         "4.5"
       ],
@@ -311,7 +311,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_tuning_profile.txt",
-      "hash": "7242304aef4289a08c92bc278753903e9519014b84098f54a9ed00a790275b5f",
+      "hash": "194f09fa45084a4acd14d70d413cdc65f94477cc2e04f198ae8f7e4e1533f1f4",
       "title": "drova326 Tuning profile",
       "firmware_version": [
         "4.5"
