@@ -1,0 +1,52 @@
+#$ TITLE: drova326 AOS35 defaults
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ AUTHOR: drova326
+#$ KEYWORDS: aos35, defaults, reset
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: It's a default CLI for AOS35.
+#$ DESCRIPTION: <br /><br />
+#$ DESCRIPTION: Discover the future of sub 250g FPV with the AOS 3.5, engineered to revolutionize your freestyle experience. Designed with cutting-edge patent pending technology and premium materials, here's why the AOS 3.5 is the ultimate choice for drone enthusiasts.
+#$ WARNING: This preset will overwrite all user configs
+
+# reset configuration to default settings
+defaults nosave
+
+# name: aos35
+
+# feature
+feature GPS
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 2 64 115200 57600 0 115200
+serial 3 2 115200 57600 0 115200
+
+# beeper
+beeper -ON_USB
+
+# led
+led 0 0,0::C:1
+led 1 1,0::C:1
+led 2 2,0::C:1
+led 3 3,0::C:1
+led 4 4,0::C:1
+led 5 5,0::C:1
+led 6 6,0::GI:1
+led 7 7,0::CB:5
+led 8 8,0::CB:6
+led 9 9,0::CB:6
+
+# master
+set dshot_bidir = ON
+set align_board_yaw = 0
+set small_angle = 180
+set ledstrip_brightness = 56
+set craft_name = aos35
+set pilot_name = drova326

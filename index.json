@@ -149,6 +149,7 @@
     "keywords": [
       "03",
       "air unit",
+      "aos35",
       "aux",
       "avatar",
       "beeper",
@@ -190,7 +191,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/modes/drova326_aux.txt",
-      "hash": "b7d7536d047620fe6e27fb0ebde0f7af79c83110aff69e4f2c61f4c36528aecd",
+      "hash": "e8424f4914b76e983b49d3f7c7d46b9efedbcbac06de4d83be278a295dc722f7",
       "title": "drova326 AUX",
       "firmware_version": [
         "4.5"
@@ -239,6 +240,23 @@
       ],
       "author": "drova326",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.5/other/drova326_AOS35_defaults.txt",
+      "hash": "0d56d024e30dedd5c9ffe343d6dfdf6bf8645e2fa6f373408efd826f57fb61ec",
+      "title": "drova326 AOS35 defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "author": "drova326",
+      "keywords": [
+        "aos35",
+        "defaults",
+        "reset"
+      ],
+      "priority": 0
     },
     {
       "fullPath": "presets/4.5/other/drova326_GPS.txt",
