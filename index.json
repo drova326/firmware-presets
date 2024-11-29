@@ -191,7 +191,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/modes/drova326_aux.txt",
-      "hash": "e8424f4914b76e983b49d3f7c7d46b9efedbcbac06de4d83be278a295dc722f7",
+      "hash": "ba05f2d29aed4eb2b51ae24fd541dabea3dbcb9b319872ebea0abec39727ac98",
       "title": "drova326 AUX",
       "firmware_version": [
         "4.5"
@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_AOS35_defaults.txt",
-      "hash": "0d56d024e30dedd5c9ffe343d6dfdf6bf8645e2fa6f373408efd826f57fb61ec",
+      "hash": "c3ef032561115d3fdec2ce2bb189c70b906e58e4228ffcbf5054bdbf55786168",
       "title": "drova326 AOS35 defaults",
       "firmware_version": [
         "4.5"
@@ -260,7 +260,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_GPS.txt",
-      "hash": "a08480088739ee123b82c71ccfbe7d9ef1bcbec7dbd5b2cf49a05879db220d2e",
+      "hash": "69e0a88835088639c5e284b706cb89071da681037e4e0d9896d3ab71c7279d24",
       "title": "drova326 GPS settings",
       "firmware_version": [
         "4.5"
