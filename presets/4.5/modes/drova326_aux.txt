@@ -65,6 +65,7 @@ set yaw_deadband = 3
 
 # feature
 feature GPS
+feature LED_STRIP
 
 # aux CRSF
 aux 0 0 0 1650 2050 0 0
@@ -89,6 +90,7 @@ rxfail 5 s 2000
 # feature
 feature -AIRMODE
 feature GPS
+feature LED_STRIP
 
 # aux ERLS
 aux 0 0 0 1950 2050 0 0
