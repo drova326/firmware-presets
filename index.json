@@ -191,7 +191,7 @@
   "presets": [
     {
       "fullPath": "presets/4.5/modes/drova326_aux.txt",
-      "hash": "5f62077442f21e0305b4f8aa3dde4d8b22e0c4a8db775b9442f402846e26a406",
+      "hash": "6a3658dfb75cf6818dda547d13c5c648cfc1ba96979281dd00a39a87479a3b7d",
       "title": "drova326 AUX",
       "firmware_version": [
         "4.5"
@@ -243,7 +243,7 @@
     },
     {
       "fullPath": "presets/4.5/other/drova326_AOS35_defaults.txt",
-      "hash": "c3ef032561115d3fdec2ce2bb189c70b906e58e4228ffcbf5054bdbf55786168",
+      "hash": "b3efaf7d85ae55f929c0f9a2265c2661070fe5c04110af2896f9353baf884c24",
       "title": "drova326 AOS35 defaults",
       "firmware_version": [
         "4.5"
